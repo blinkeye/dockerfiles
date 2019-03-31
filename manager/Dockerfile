@@ -1,4 +1,4 @@
-FROM solsson/jdk-opensource:11.0.2@sha256:9088fd8eff0920f6012e422cdcb67a590b2a6edbeae1ff0ca8e213e0d4260cf8
+FROM openjdk:8u212-jdk-slim-stretch
 
 ENV KAFKA_MANAGER_VERSION=1.3.3.23
 
